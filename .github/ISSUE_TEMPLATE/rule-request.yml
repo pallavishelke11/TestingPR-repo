@@ -1,0 +1,28 @@
+name: Review Rule Request
+description: Request a new automated code review rule
+labels: [enhancement]
+body:
+  - type: input
+    id: language
+    attributes:
+      label: Language or framework
+    validations:
+      required: true
+  - type: textarea
+    id: rule
+    attributes:
+      label: Rule behavior
+      description: Describe the expected finding, severity, and example code.
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options: [Error, Warning, Information]
+    validations:
+      required: true
+  - type: textarea
+    id: false-positives
+    attributes:
+      label: False-positive concerns

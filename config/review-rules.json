@@ -1,0 +1,19 @@
+{
+  "naming": {
+    "python_functions": "snake_case",
+    "python_classes": "PascalCase",
+    "javascript_identifiers": "camelCase",
+    "constants": "UPPER_SNAKE_CASE"
+  },
+  "security": {
+    "block_detected_secrets": true
+  },
+  "style": {
+    "maximum_line_length": 120,
+    "maximum_file_length": 500
+  },
+  "review_policy": {
+    "block_on_error": true,
+    "warnings_are_advisory": true
+  }
+}

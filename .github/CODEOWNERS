@@ -1,0 +1,5 @@
+# Require review for workflow, rule engine, security, and governance changes.
+/.github/workflows/ @pallavishelke11
+/src/pr_review/reviewer.py @pallavishelke11
+/SECURITY.md @pallavishelke11
+/config/ @pallavishelke11
